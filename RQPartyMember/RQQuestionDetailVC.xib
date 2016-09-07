@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1912" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RQQuestionDetailVC">
+            <connections>
+                <outlet property="tableView" destination="UBf-cr-z6n" id="xcN-mm-BcC"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="UBf-cr-z6n">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="ACa-xv-k2m"/>
+                        <outlet property="delegate" destination="-1" id="NbO-lX-vTo"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="UBf-cr-z6n" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="MMb-JU-Zxk"/>
+                <constraint firstAttribute="bottom" secondItem="UBf-cr-z6n" secondAttribute="bottom" id="NYh-OH-QzA"/>
+                <constraint firstItem="UBf-cr-z6n" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="vdt-vI-IW2"/>
+                <constraint firstAttribute="trailing" secondItem="UBf-cr-z6n" secondAttribute="trailing" id="zp4-2r-hr8"/>
+            </constraints>
+            <point key="canvasLocation" x="249" y="156"/>
+        </view>
+    </objects>
+</document>

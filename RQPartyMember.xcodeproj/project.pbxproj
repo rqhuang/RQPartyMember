@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FDD5A47EF28EF4D3451E03A /* libPods-RQPartyMember.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D90CB8C3944E80893434BBAB /* libPods-RQPartyMember.a */; };
+		65519DE81D79E7820048B364 /* RQMineHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 65519DE71D79E7820048B364 /* RQMineHeader.m */; };
+		65519DEA1D79E7A30048B364 /* RQMineHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65519DE91D79E7A30048B364 /* RQMineHeader.xib */; };
+		65519DEE1D79E8B90048B364 /* RQTableViewFirstCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65519DEC1D79E8B90048B364 /* RQTableViewFirstCell.m */; };
+		65519DEF1D79E8B90048B364 /* RQTableViewFirstCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65519DED1D79E8B90048B364 /* RQTableViewFirstCell.xib */; };
+		65519DF31D79E8D10048B364 /* RQTableViewSecondCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65519DF11D79E8D10048B364 /* RQTableViewSecondCell.m */; };
+		65519DF41D79E8D10048B364 /* RQTableViewSecondCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65519DF21D79E8D10048B364 /* RQTableViewSecondCell.xib */; };
+		659039A91D7D9D4C0055490F /* RQModifyNameVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 659039A71D7D9D4C0055490F /* RQModifyNameVC.m */; };
+		659039AA1D7D9D4C0055490F /* RQModifyNameVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 659039A81D7D9D4C0055490F /* RQModifyNameVC.xib */; };
+		659039AE1D7D9F2E0055490F /* RQModifyEmailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 659039AC1D7D9F2E0055490F /* RQModifyEmailVC.m */; };
+		659039AF1D7D9F2E0055490F /* RQModifyEmailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 659039AD1D7D9F2E0055490F /* RQModifyEmailVC.xib */; };
+		659039B31D7DA0820055490F /* RQRetrievePasswordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 659039B11D7DA0820055490F /* RQRetrievePasswordVC.m */; };
+		659039B41D7DA0820055490F /* RQRetrievePasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 659039B21D7DA0820055490F /* RQRetrievePasswordVC.xib */; };
+		659039B81D7DA34B0055490F /* RQChooseSexualVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 659039B61D7DA34B0055490F /* RQChooseSexualVC.m */; };
+		659039B91D7DA34B0055490F /* RQChooseSexualVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 659039B71D7DA34B0055490F /* RQChooseSexualVC.xib */; };
+		659039BE1D7DAD4D0055490F /* RQCommentDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 659039BC1D7DAD4D0055490F /* RQCommentDetailVC.m */; };
+		659039BF1D7DAD4D0055490F /* RQCommentDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 659039BD1D7DAD4D0055490F /* RQCommentDetailVC.xib */; };
+		659039C31D7DADC00055490F /* RQCommentDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 659039C11D7DADC00055490F /* RQCommentDetailCell.m */; };
+		659039C41D7DADC00055490F /* RQCommentDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 659039C21D7DADC00055490F /* RQCommentDetailCell.xib */; };
+		659039C81D7DB5F80055490F /* RQInfomationDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 659039C61D7DB5F80055490F /* RQInfomationDetailVC.m */; };
+		659039C91D7DB5F80055490F /* RQInfomationDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 659039C71D7DB5F80055490F /* RQInfomationDetailVC.xib */; };
+		659039CD1D7DB7500055490F /* RQSearchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 659039CB1D7DB7500055490F /* RQSearchVC.m */; };
+		659039CE1D7DB7500055490F /* RQSearchVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 659039CC1D7DB7500055490F /* RQSearchVC.xib */; };
+		659039D21D7DBABC0055490F /* RQQuestionDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 659039D01D7DBABC0055490F /* RQQuestionDetailVC.m */; };
+		659039D31D7DBABC0055490F /* RQQuestionDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 659039D11D7DBABC0055490F /* RQQuestionDetailVC.xib */; };
+		659039D61D7DBC1F0055490F /* RQQuestionHead.m in Sources */ = {isa = PBXBuildFile; fileRef = 659039D51D7DBC1F0055490F /* RQQuestionHead.m */; };
+		659039D91D7DBC340055490F /* RQQuestionFoot.m in Sources */ = {isa = PBXBuildFile; fileRef = 659039D81D7DBC340055490F /* RQQuestionFoot.m */; };
+		659039DB1D7DBC460055490F /* RQQuestionHead.xib in Resources */ = {isa = PBXBuildFile; fileRef = 659039DA1D7DBC460055490F /* RQQuestionHead.xib */; };
+		659039DD1D7DBC560055490F /* RQQuestionFoot.xib in Resources */ = {isa = PBXBuildFile; fileRef = 659039DC1D7DBC560055490F /* RQQuestionFoot.xib */; };
+		659039E11D7DBF3E0055490F /* RQQuestionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 659039DF1D7DBF3E0055490F /* RQQuestionCell.m */; };
+		659039E21D7DBF3E0055490F /* RQQuestionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 659039E01D7DBF3E0055490F /* RQQuestionCell.xib */; };
+		65961B341D786B9A00949AE7 /* RQInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65961B321D786B9A00949AE7 /* RQInfoTableViewCell.m */; };
+		65961B351D786B9A00949AE7 /* RQInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65961B331D786B9A00949AE7 /* RQInfoTableViewCell.xib */; };
+		65961B3A1D786E9900949AE7 /* RQTaskCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65961B381D786E9900949AE7 /* RQTaskCell.m */; };
+		65961B3B1D786E9900949AE7 /* RQTaskCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65961B391D786E9900949AE7 /* RQTaskCell.xib */; };
+		65A3F0321D7C4E1900DA977E /* RQPartyScoreVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A3F0301D7C4E1900DA977E /* RQPartyScoreVC.m */; };
+		65A3F0331D7C4E1900DA977E /* RQPartyScoreVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65A3F0311D7C4E1900DA977E /* RQPartyScoreVC.xib */; };
+		65A3F0371D7C5D3F00DA977E /* RQFollowUpCommentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A3F0351D7C5D3F00DA977E /* RQFollowUpCommentVC.m */; };
+		65A3F0381D7C5D3F00DA977E /* RQFollowUpCommentVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65A3F0361D7C5D3F00DA977E /* RQFollowUpCommentVC.xib */; };
+		65A3F03C1D7C5DE000DA977E /* RQFollowUpCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A3F03A1D7C5DE000DA977E /* RQFollowUpCommentCell.m */; };
+		65A3F03D1D7C5DE000DA977E /* RQFollowUpCommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65A3F03B1D7C5DE000DA977E /* RQFollowUpCommentCell.xib */; };
+		65A3F0411D7C7DB600DA977E /* RQCollectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A3F03F1D7C7DB600DA977E /* RQCollectVC.m */; };
+		65A3F0421D7C7DB600DA977E /* RQCollectVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65A3F0401D7C7DB600DA977E /* RQCollectVC.xib */; };
+		65A3F0461D7C7DFF00DA977E /* RQCollectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A3F0441D7C7DFF00DA977E /* RQCollectCell.m */; };
+		65A3F0471D7C7DFF00DA977E /* RQCollectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65A3F0451D7C7DFF00DA977E /* RQCollectCell.xib */; };
+		65A3F04B1D7C83A200DA977E /* RQPersonalInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A3F0491D7C83A200DA977E /* RQPersonalInfoVC.m */; };
+		65A3F04C1D7C83A200DA977E /* RQPersonalInfoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65A3F04A1D7C83A200DA977E /* RQPersonalInfoVC.xib */; };
+		65A3F0501D7C865A00DA977E /* RQPersonalInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A3F04E1D7C865A00DA977E /* RQPersonalInfoCell.m */; };
+		65A3F0511D7C865A00DA977E /* RQPersonalInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65A3F04F1D7C865A00DA977E /* RQPersonalInfoCell.xib */; };
+		65C68C3D1D77178B00C6A95B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C68C3C1D77178B00C6A95B /* main.m */; };
+		65C68C401D77178B00C6A95B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C68C3F1D77178B00C6A95B /* AppDelegate.m */; };
+		65C68C481D77178B00C6A95B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65C68C471D77178B00C6A95B /* Assets.xcassets */; };
+		65C68C4B1D77178B00C6A95B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65C68C491D77178B00C6A95B /* LaunchScreen.storyboard */; };
+		65C68C571D77186700C6A95B /* RQTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C68C561D77186700C6A95B /* RQTabBarController.m */; };
+		65C68C5B1D771A3D00C6A95B /* RQInformationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C68C591D771A3D00C6A95B /* RQInformationVC.m */; };
+		65C68C5C1D771A3D00C6A95B /* RQInformationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65C68C5A1D771A3D00C6A95B /* RQInformationVC.xib */; };
+		65C68C601D771A8200C6A95B /* RQTaskVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C68C5E1D771A8200C6A95B /* RQTaskVC.m */; };
+		65C68C611D771A8200C6A95B /* RQTaskVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65C68C5F1D771A8200C6A95B /* RQTaskVC.xib */; };
+		65C68C651D771AD000C6A95B /* RQPartyHistoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C68C631D771AD000C6A95B /* RQPartyHistoryVC.m */; };
+		65C68C661D771AD000C6A95B /* RQPartyHistoryVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65C68C641D771AD000C6A95B /* RQPartyHistoryVC.xib */; };
+		65C68C6A1D771AF200C6A95B /* RQMineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C68C681D771AF200C6A95B /* RQMineVC.m */; };
+		65C68C6B1D771AF200C6A95B /* RQMineVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65C68C691D771AF200C6A95B /* RQMineVC.xib */; };
+		65C68C6E1D771F3000C6A95B /* RQNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C68C6D1D771F3000C6A95B /* RQNavigationVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		65519DE61D79E7820048B364 /* RQMineHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQMineHeader.h; sourceTree = "<group>"; };
+		65519DE71D79E7820048B364 /* RQMineHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQMineHeader.m; sourceTree = "<group>"; };
+		65519DE91D79E7A30048B364 /* RQMineHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RQMineHeader.xib; sourceTree = "<group>"; };
+		65519DEB1D79E8B90048B364 /* RQTableViewFirstCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQTableViewFirstCell.h; sourceTree = "<group>"; };
+		65519DEC1D79E8B90048B364 /* RQTableViewFirstCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQTableViewFirstCell.m; sourceTree = "<group>"; };
+		65519DED1D79E8B90048B364 /* RQTableViewFirstCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RQTableViewFirstCell.xib; sourceTree = "<group>"; };
+		65519DF01D79E8D10048B364 /* RQTableViewSecondCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQTableViewSecondCell.h; sourceTree = "<group>"; };
+		65519DF11D79E8D10048B364 /* RQTableViewSecondCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQTableViewSecondCell.m; sourceTree = "<group>"; };
+		65519DF21D79E8D10048B364 /* RQTableViewSecondCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RQTableViewSecondCell.xib; sourceTree = "<group>"; };
+		659039A61D7D9D4C0055490F /* RQModifyNameVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQModifyNameVC.h; sourceTree = "<group>"; };
+		659039A71D7D9D4C0055490F /* RQModifyNameVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQModifyNameVC.m; sourceTree = "<group>"; };
+		659039A81D7D9D4C0055490F /* RQModifyNameVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RQModifyNameVC.xib; sourceTree = "<group>"; };
+		659039AB1D7D9F2E0055490F /* RQModifyEmailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQModifyEmailVC.h; sourceTree = "<group>"; };
+		659039AC1D7D9F2E0055490F /* RQModifyEmailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQModifyEmailVC.m; sourceTree = "<group>"; };
+		659039AD1D7D9F2E0055490F /* RQModifyEmailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RQModifyEmailVC.xib; sourceTree = "<group>"; };
+		659039B01D7DA0820055490F /* RQRetrievePasswordVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQRetrievePasswordVC.h; sourceTree = "<group>"; };
+		659039B11D7DA0820055490F /* RQRetrievePasswordVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQRetrievePasswordVC.m; sourceTree = "<group>"; };
+		659039B21D7DA0820055490F /* RQRetrievePasswordVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RQRetrievePasswordVC.xib; sourceTree = "<group>"; };
+		659039B51D7DA34B0055490F /* RQChooseSexualVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQChooseSexualVC.h; sourceTree = "<group>"; };
+		659039B61D7DA34B0055490F /* RQChooseSexualVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQChooseSexualVC.m; sourceTree = "<group>"; };
+		659039B71D7DA34B0055490F /* RQChooseSexualVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RQChooseSexualVC.xib; sourceTree = "<group>"; };
+		659039BB1D7DAD4D0055490F /* RQCommentDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQCommentDetailVC.h; sourceTree = "<group>"; };
+		659039BC1D7DAD4D0055490F /* RQCommentDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQCommentDetailVC.m; sourceTree = "<group>"; };
+		659039BD1D7DAD4D0055490F /* RQCommentDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RQCommentDetailVC.xib; sourceTree = "<group>"; };
+		659039C01D7DADC00055490F /* RQCommentDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQCommentDetailCell.h; sourceTree = "<group>"; };
+		659039C11D7DADC00055490F /* RQCommentDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQCommentDetailCell.m; sourceTree = "<group>"; };
+		659039C21D7DADC00055490F /* RQCommentDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RQCommentDetailCell.xib; sourceTree = "<group>"; };
+		659039C51D7DB5F80055490F /* RQInfomationDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQInfomationDetailVC.h; sourceTree = "<group>"; };
+		659039C61D7DB5F80055490F /* RQInfomationDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQInfomationDetailVC.m; sourceTree = "<group>"; };
+		659039C71D7DB5F80055490F /* RQInfomationDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RQInfomationDetailVC.xib; sourceTree = "<group>"; };
+		659039CA1D7DB7500055490F /* RQSearchVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQSearchVC.h; sourceTree = "<group>"; };
+		659039CB1D7DB7500055490F /* RQSearchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQSearchVC.m; sourceTree = "<group>"; };
+		659039CC1D7DB7500055490F /* RQSearchVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RQSearchVC.xib; sourceTree = "<group>"; };
+		659039CF1D7DBABC0055490F /* RQQuestionDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQQuestionDetailVC.h; sourceTree = "<group>"; };
+		659039D01D7DBABC0055490F /* RQQuestionDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQQuestionDetailVC.m; sourceTree = "<group>"; };
+		659039D11D7DBABC0055490F /* RQQuestionDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RQQuestionDetailVC.xib; sourceTree = "<group>"; };
+		659039D41D7DBC1F0055490F /* RQQuestionHead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQQuestionHead.h; sourceTree = "<group>"; };
+		659039D51D7DBC1F0055490F /* RQQuestionHead.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQQuestionHead.m; sourceTree = "<group>"; };
+		659039D71D7DBC340055490F /* RQQuestionFoot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQQuestionFoot.h; sourceTree = "<group>"; };
+		659039D81D7DBC340055490F /* RQQuestionFoot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQQuestionFoot.m; sourceTree = "<group>"; };
+		659039DA1D7DBC460055490F /* RQQuestionHead.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RQQuestionHead.xib; sourceTree = "<group>"; };
+		659039DC1D7DBC560055490F /* RQQuestionFoot.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RQQuestionFoot.xib; sourceTree = "<group>"; };
+		659039DE1D7DBF3E0055490F /* RQQuestionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQQuestionCell.h; sourceTree = "<group>"; };
+		659039DF1D7DBF3E0055490F /* RQQuestionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQQuestionCell.m; sourceTree = "<group>"; };
+		659039E01D7DBF3E0055490F /* RQQuestionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RQQuestionCell.xib; sourceTree = "<group>"; };
+		65961B311D786B9A00949AE7 /* RQInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQInfoTableViewCell.h; sourceTree = "<group>"; };
+		65961B321D786B9A00949AE7 /* RQInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQInfoTableViewCell.m; sourceTree = "<group>"; };
+		65961B331D786B9A00949AE7 /* RQInfoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RQInfoTableViewCell.xib; sourceTree = "<group>"; };
+		65961B371D786E9900949AE7 /* RQTaskCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQTaskCell.h; sourceTree = "<group>"; };
+		65961B381D786E9900949AE7 /* RQTaskCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQTaskCell.m; sourceTree = "<group>"; };
+		65961B391D786E9900949AE7 /* RQTaskCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RQTaskCell.xib; sourceTree = "<group>"; };
+		65A3F02F1D7C4E1900DA977E /* RQPartyScoreVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQPartyScoreVC.h; sourceTree = "<group>"; };
+		65A3F0301D7C4E1900DA977E /* RQPartyScoreVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQPartyScoreVC.m; sourceTree = "<group>"; };
+		65A3F0311D7C4E1900DA977E /* RQPartyScoreVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RQPartyScoreVC.xib; sourceTree = "<group>"; };
+		65A3F0341D7C5D3F00DA977E /* RQFollowUpCommentVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQFollowUpCommentVC.h; sourceTree = "<group>"; };
+		65A3F0351D7C5D3F00DA977E /* RQFollowUpCommentVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQFollowUpCommentVC.m; sourceTree = "<group>"; };
+		65A3F0361D7C5D3F00DA977E /* RQFollowUpCommentVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RQFollowUpCommentVC.xib; sourceTree = "<group>"; };
+		65A3F0391D7C5DE000DA977E /* RQFollowUpCommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQFollowUpCommentCell.h; sourceTree = "<group>"; };
+		65A3F03A1D7C5DE000DA977E /* RQFollowUpCommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQFollowUpCommentCell.m; sourceTree = "<group>"; };
+		65A3F03B1D7C5DE000DA977E /* RQFollowUpCommentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RQFollowUpCommentCell.xib; sourceTree = "<group>"; };
+		65A3F03E1D7C7DB600DA977E /* RQCollectVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQCollectVC.h; sourceTree = "<group>"; };
+		65A3F03F1D7C7DB600DA977E /* RQCollectVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQCollectVC.m; sourceTree = "<group>"; };
+		65A3F0401D7C7DB600DA977E /* RQCollectVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RQCollectVC.xib; sourceTree = "<group>"; };
+		65A3F0431D7C7DFF00DA977E /* RQCollectCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQCollectCell.h; sourceTree = "<group>"; };
+		65A3F0441D7C7DFF00DA977E /* RQCollectCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQCollectCell.m; sourceTree = "<group>"; };
+		65A3F0451D7C7DFF00DA977E /* RQCollectCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RQCollectCell.xib; sourceTree = "<group>"; };
+		65A3F0481D7C83A200DA977E /* RQPersonalInfoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQPersonalInfoVC.h; sourceTree = "<group>"; };
+		65A3F0491D7C83A200DA977E /* RQPersonalInfoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQPersonalInfoVC.m; sourceTree = "<group>"; };
+		65A3F04A1D7C83A200DA977E /* RQPersonalInfoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RQPersonalInfoVC.xib; sourceTree = "<group>"; };
+		65A3F04D1D7C865A00DA977E /* RQPersonalInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQPersonalInfoCell.h; sourceTree = "<group>"; };
+		65A3F04E1D7C865A00DA977E /* RQPersonalInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQPersonalInfoCell.m; sourceTree = "<group>"; };
+		65A3F04F1D7C865A00DA977E /* RQPersonalInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RQPersonalInfoCell.xib; sourceTree = "<group>"; };
+		65C68C381D77178B00C6A95B /* RQPartyMember.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RQPartyMember.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65C68C3C1D77178B00C6A95B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		65C68C3E1D77178B00C6A95B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		65C68C3F1D77178B00C6A95B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		65C68C471D77178B00C6A95B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65C68C4A1D77178B00C6A95B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65C68C4C1D77178B00C6A95B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65C68C551D77186700C6A95B /* RQTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQTabBarController.h; sourceTree = "<group>"; };
+		65C68C561D77186700C6A95B /* RQTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQTabBarController.m; sourceTree = "<group>"; };
+		65C68C581D771A3D00C6A95B /* RQInformationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQInformationVC.h; sourceTree = "<group>"; };
+		65C68C591D771A3D00C6A95B /* RQInformationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQInformationVC.m; sourceTree = "<group>"; };
+		65C68C5A1D771A3D00C6A95B /* RQInformationVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RQInformationVC.xib; sourceTree = "<group>"; };
+		65C68C5D1D771A8200C6A95B /* RQTaskVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQTaskVC.h; sourceTree = "<group>"; };
+		65C68C5E1D771A8200C6A95B /* RQTaskVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQTaskVC.m; sourceTree = "<group>"; };
+		65C68C5F1D771A8200C6A95B /* RQTaskVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RQTaskVC.xib; sourceTree = "<group>"; };
+		65C68C621D771AD000C6A95B /* RQPartyHistoryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQPartyHistoryVC.h; sourceTree = "<group>"; };
+		65C68C631D771AD000C6A95B /* RQPartyHistoryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQPartyHistoryVC.m; sourceTree = "<group>"; };
+		65C68C641D771AD000C6A95B /* RQPartyHistoryVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RQPartyHistoryVC.xib; sourceTree = "<group>"; };
+		65C68C671D771AF200C6A95B /* RQMineVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQMineVC.h; sourceTree = "<group>"; };
+		65C68C681D771AF200C6A95B /* RQMineVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQMineVC.m; sourceTree = "<group>"; };
+		65C68C691D771AF200C6A95B /* RQMineVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RQMineVC.xib; sourceTree = "<group>"; };
+		65C68C6C1D771F2F00C6A95B /* RQNavigationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQNavigationVC.h; sourceTree = "<group>"; };
+		65C68C6D1D771F3000C6A95B /* RQNavigationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQNavigationVC.m; sourceTree = "<group>"; };
+		D90CB8C3944E80893434BBAB /* libPods-RQPartyMember.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RQPartyMember.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F07D18DFA180BD9A797A948A /* Pods-RQPartyMember.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RQPartyMember.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RQPartyMember/Pods-RQPartyMember.debug.xcconfig"; sourceTree = "<group>"; };
+		FC4BE91486CE713E1048A7F2 /* Pods-RQPartyMember.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RQPartyMember.release.xcconfig"; path = "Pods/Target Support Files/Pods-RQPartyMember/Pods-RQPartyMember.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65C68C351D77178B00C6A95B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FDD5A47EF28EF4D3451E03A /* libPods-RQPartyMember.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46E9E05DF45493717C1B52EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D90CB8C3944E80893434BBAB /* libPods-RQPartyMember.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65519DE51D79E7300048B364 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				65C68C671D771AF200C6A95B /* RQMineVC.h */,
+				65C68C681D771AF200C6A95B /* RQMineVC.m */,
+				65C68C691D771AF200C6A95B /* RQMineVC.xib */,
+				65519DE61D79E7820048B364 /* RQMineHeader.h */,
+				65519DE71D79E7820048B364 /* RQMineHeader.m */,
+				65519DE91D79E7A30048B364 /* RQMineHeader.xib */,
+				65519DEB1D79E8B90048B364 /* RQTableViewFirstCell.h */,
+				65519DEC1D79E8B90048B364 /* RQTableViewFirstCell.m */,
+				65519DED1D79E8B90048B364 /* RQTableViewFirstCell.xib */,
+				65519DF01D79E8D10048B364 /* RQTableViewSecondCell.h */,
+				65519DF11D79E8D10048B364 /* RQTableViewSecondCell.m */,
+				65519DF21D79E8D10048B364 /* RQTableViewSecondCell.xib */,
+				65A3F02F1D7C4E1900DA977E /* RQPartyScoreVC.h */,
+				65A3F0301D7C4E1900DA977E /* RQPartyScoreVC.m */,
+				65A3F0311D7C4E1900DA977E /* RQPartyScoreVC.xib */,
+				65A3F0341D7C5D3F00DA977E /* RQFollowUpCommentVC.h */,
+				65A3F0351D7C5D3F00DA977E /* RQFollowUpCommentVC.m */,
+				65A3F0361D7C5D3F00DA977E /* RQFollowUpCommentVC.xib */,
+				65A3F0391D7C5DE000DA977E /* RQFollowUpCommentCell.h */,
+				65A3F03A1D7C5DE000DA977E /* RQFollowUpCommentCell.m */,
+				65A3F03B1D7C5DE000DA977E /* RQFollowUpCommentCell.xib */,
+				65A3F03E1D7C7DB600DA977E /* RQCollectVC.h */,
+				65A3F03F1D7C7DB600DA977E /* RQCollectVC.m */,
+				65A3F0401D7C7DB600DA977E /* RQCollectVC.xib */,
+				65A3F0431D7C7DFF00DA977E /* RQCollectCell.h */,
+				65A3F0441D7C7DFF00DA977E /* RQCollectCell.m */,
+				65A3F0451D7C7DFF00DA977E /* RQCollectCell.xib */,
+				65A3F0481D7C83A200DA977E /* RQPersonalInfoVC.h */,
+				65A3F0491D7C83A200DA977E /* RQPersonalInfoVC.m */,
+				65A3F04A1D7C83A200DA977E /* RQPersonalInfoVC.xib */,
+				65A3F04D1D7C865A00DA977E /* RQPersonalInfoCell.h */,
+				65A3F04E1D7C865A00DA977E /* RQPersonalInfoCell.m */,
+				65A3F04F1D7C865A00DA977E /* RQPersonalInfoCell.xib */,
+				659039A61D7D9D4C0055490F /* RQModifyNameVC.h */,
+				659039A71D7D9D4C0055490F /* RQModifyNameVC.m */,
+				659039A81D7D9D4C0055490F /* RQModifyNameVC.xib */,
+				659039AB1D7D9F2E0055490F /* RQModifyEmailVC.h */,
+				659039AC1D7D9F2E0055490F /* RQModifyEmailVC.m */,
+				659039AD1D7D9F2E0055490F /* RQModifyEmailVC.xib */,
+				659039B01D7DA0820055490F /* RQRetrievePasswordVC.h */,
+				659039B11D7DA0820055490F /* RQRetrievePasswordVC.m */,
+				659039B21D7DA0820055490F /* RQRetrievePasswordVC.xib */,
+				659039B51D7DA34B0055490F /* RQChooseSexualVC.h */,
+				659039B61D7DA34B0055490F /* RQChooseSexualVC.m */,
+				659039B71D7DA34B0055490F /* RQChooseSexualVC.xib */,
+			);
+			name = Mine;
+			sourceTree = "<group>";
+		};
+		659039BA1D7DAD080055490F /* PartyHistory */ = {
+			isa = PBXGroup;
+			children = (
+				65C68C621D771AD000C6A95B /* RQPartyHistoryVC.h */,
+				65C68C631D771AD000C6A95B /* RQPartyHistoryVC.m */,
+				65C68C641D771AD000C6A95B /* RQPartyHistoryVC.xib */,
+				659039BB1D7DAD4D0055490F /* RQCommentDetailVC.h */,
+				659039BC1D7DAD4D0055490F /* RQCommentDetailVC.m */,
+				659039BD1D7DAD4D0055490F /* RQCommentDetailVC.xib */,
+				659039C01D7DADC00055490F /* RQCommentDetailCell.h */,
+				659039C11D7DADC00055490F /* RQCommentDetailCell.m */,
+				659039C21D7DADC00055490F /* RQCommentDetailCell.xib */,
+				659039CA1D7DB7500055490F /* RQSearchVC.h */,
+				659039CB1D7DB7500055490F /* RQSearchVC.m */,
+				659039CC1D7DB7500055490F /* RQSearchVC.xib */,
+			);
+			name = PartyHistory;
+			sourceTree = "<group>";
+		};
+		65961B301D786B6100949AE7 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				65C68C581D771A3D00C6A95B /* RQInformationVC.h */,
+				65C68C591D771A3D00C6A95B /* RQInformationVC.m */,
+				65C68C5A1D771A3D00C6A95B /* RQInformationVC.xib */,
+				65961B311D786B9A00949AE7 /* RQInfoTableViewCell.h */,
+				65961B321D786B9A00949AE7 /* RQInfoTableViewCell.m */,
+				65961B331D786B9A00949AE7 /* RQInfoTableViewCell.xib */,
+				659039C51D7DB5F80055490F /* RQInfomationDetailVC.h */,
+				659039C61D7DB5F80055490F /* RQInfomationDetailVC.m */,
+				659039C71D7DB5F80055490F /* RQInfomationDetailVC.xib */,
+			);
+			name = Info;
+			sourceTree = "<group>";
+		};
+		65961B361D786E6D00949AE7 /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				65C68C5D1D771A8200C6A95B /* RQTaskVC.h */,
+				65C68C5E1D771A8200C6A95B /* RQTaskVC.m */,
+				65C68C5F1D771A8200C6A95B /* RQTaskVC.xib */,
+				65961B371D786E9900949AE7 /* RQTaskCell.h */,
+				65961B381D786E9900949AE7 /* RQTaskCell.m */,
+				65961B391D786E9900949AE7 /* RQTaskCell.xib */,
+				659039CF1D7DBABC0055490F /* RQQuestionDetailVC.h */,
+				659039D01D7DBABC0055490F /* RQQuestionDetailVC.m */,
+				659039D11D7DBABC0055490F /* RQQuestionDetailVC.xib */,
+				659039D41D7DBC1F0055490F /* RQQuestionHead.h */,
+				659039D51D7DBC1F0055490F /* RQQuestionHead.m */,
+				659039DA1D7DBC460055490F /* RQQuestionHead.xib */,
+				659039D71D7DBC340055490F /* RQQuestionFoot.h */,
+				659039D81D7DBC340055490F /* RQQuestionFoot.m */,
+				659039DC1D7DBC560055490F /* RQQuestionFoot.xib */,
+				659039DE1D7DBF3E0055490F /* RQQuestionCell.h */,
+				659039DF1D7DBF3E0055490F /* RQQuestionCell.m */,
+				659039E01D7DBF3E0055490F /* RQQuestionCell.xib */,
+			);
+			name = Task;
+			sourceTree = "<group>";
+		};
+		65C68C2F1D77178B00C6A95B = {
+			isa = PBXGroup;
+			children = (
+				65C68C3A1D77178B00C6A95B /* RQPartyMember */,
+				65C68C391D77178B00C6A95B /* Products */,
+				A6485239A04D31FD0561A44B /* Pods */,
+				46E9E05DF45493717C1B52EB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		65C68C391D77178B00C6A95B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65C68C381D77178B00C6A95B /* RQPartyMember.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65C68C3A1D77178B00C6A95B /* RQPartyMember */ = {
+			isa = PBXGroup;
+			children = (
+				659039BA1D7DAD080055490F /* PartyHistory */,
+				65519DE51D79E7300048B364 /* Mine */,
+				65961B361D786E6D00949AE7 /* Task */,
+				65961B301D786B6100949AE7 /* Info */,
+				65C68C3E1D77178B00C6A95B /* AppDelegate.h */,
+				65C68C3F1D77178B00C6A95B /* AppDelegate.m */,
+				65C68C471D77178B00C6A95B /* Assets.xcassets */,
+				65C68C491D77178B00C6A95B /* LaunchScreen.storyboard */,
+				65C68C4C1D77178B00C6A95B /* Info.plist */,
+				65C68C3B1D77178B00C6A95B /* Supporting Files */,
+				65C68C551D77186700C6A95B /* RQTabBarController.h */,
+				65C68C561D77186700C6A95B /* RQTabBarController.m */,
+				65C68C6C1D771F2F00C6A95B /* RQNavigationVC.h */,
+				65C68C6D1D771F3000C6A95B /* RQNavigationVC.m */,
+			);
+			path = RQPartyMember;
+			sourceTree = "<group>";
+		};
+		65C68C3B1D77178B00C6A95B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65C68C3C1D77178B00C6A95B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A6485239A04D31FD0561A44B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F07D18DFA180BD9A797A948A /* Pods-RQPartyMember.debug.xcconfig */,
+				FC4BE91486CE713E1048A7F2 /* Pods-RQPartyMember.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65C68C371D77178B00C6A95B /* RQPartyMember */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65C68C4F1D77178B00C6A95B /* Build configuration list for PBXNativeTarget "RQPartyMember" */;
+			buildPhases = (
+				24CA1158E3D5B47B83F1114A /* Check Pods Manifest.lock */,
+				65C68C341D77178B00C6A95B /* Sources */,
+				65C68C351D77178B00C6A95B /* Frameworks */,
+				65C68C361D77178B00C6A95B /* Resources */,
+				6C15E913BE176F1E8CD6DAE6 /* Embed Pods Frameworks */,
+				C0BFBD2602D3023FF42A4CF4 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RQPartyMember;
+			productName = RQPartyMember;
+			productReference = 65C68C381D77178B00C6A95B /* RQPartyMember.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65C68C301D77178B00C6A95B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = hrq;
+				TargetAttributes = {
+					65C68C371D77178B00C6A95B = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 65C68C331D77178B00C6A95B /* Build configuration list for PBXProject "RQPartyMember" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65C68C2F1D77178B00C6A95B;
+			productRefGroup = 65C68C391D77178B00C6A95B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65C68C371D77178B00C6A95B /* RQPartyMember */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65C68C361D77178B00C6A95B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				659039AA1D7D9D4C0055490F /* RQModifyNameVC.xib in Resources */,
+				659039C41D7DADC00055490F /* RQCommentDetailCell.xib in Resources */,
+				65A3F0381D7C5D3F00DA977E /* RQFollowUpCommentVC.xib in Resources */,
+				65C68C611D771A8200C6A95B /* RQTaskVC.xib in Resources */,
+				659039DB1D7DBC460055490F /* RQQuestionHead.xib in Resources */,
+				65A3F03D1D7C5DE000DA977E /* RQFollowUpCommentCell.xib in Resources */,
+				659039B91D7DA34B0055490F /* RQChooseSexualVC.xib in Resources */,
+				65C68C4B1D77178B00C6A95B /* LaunchScreen.storyboard in Resources */,
+				65519DF41D79E8D10048B364 /* RQTableViewSecondCell.xib in Resources */,
+				65A3F0331D7C4E1900DA977E /* RQPartyScoreVC.xib in Resources */,
+				65A3F0511D7C865A00DA977E /* RQPersonalInfoCell.xib in Resources */,
+				65519DEA1D79E7A30048B364 /* RQMineHeader.xib in Resources */,
+				659039D31D7DBABC0055490F /* RQQuestionDetailVC.xib in Resources */,
+				65519DEF1D79E8B90048B364 /* RQTableViewFirstCell.xib in Resources */,
+				659039E21D7DBF3E0055490F /* RQQuestionCell.xib in Resources */,
+				65961B351D786B9A00949AE7 /* RQInfoTableViewCell.xib in Resources */,
+				65C68C661D771AD000C6A95B /* RQPartyHistoryVC.xib in Resources */,
+				659039AF1D7D9F2E0055490F /* RQModifyEmailVC.xib in Resources */,
+				65A3F0421D7C7DB600DA977E /* RQCollectVC.xib in Resources */,
+				65A3F0471D7C7DFF00DA977E /* RQCollectCell.xib in Resources */,
+				65C68C481D77178B00C6A95B /* Assets.xcassets in Resources */,
+				65961B3B1D786E9900949AE7 /* RQTaskCell.xib in Resources */,
+				659039CE1D7DB7500055490F /* RQSearchVC.xib in Resources */,
+				659039C91D7DB5F80055490F /* RQInfomationDetailVC.xib in Resources */,
+				65C68C6B1D771AF200C6A95B /* RQMineVC.xib in Resources */,
+				65A3F04C1D7C83A200DA977E /* RQPersonalInfoVC.xib in Resources */,
+				659039DD1D7DBC560055490F /* RQQuestionFoot.xib in Resources */,
+				659039BF1D7DAD4D0055490F /* RQCommentDetailVC.xib in Resources */,
+				65C68C5C1D771A3D00C6A95B /* RQInformationVC.xib in Resources */,
+				659039B41D7DA0820055490F /* RQRetrievePasswordVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24CA1158E3D5B47B83F1114A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6C15E913BE176F1E8CD6DAE6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RQPartyMember/Pods-RQPartyMember-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0BFBD2602D3023FF42A4CF4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RQPartyMember/Pods-RQPartyMember-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65C68C341D77178B00C6A95B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A3F03C1D7C5DE000DA977E /* RQFollowUpCommentCell.m in Sources */,
+				65C68C401D77178B00C6A95B /* AppDelegate.m in Sources */,
+				65A3F0411D7C7DB600DA977E /* RQCollectVC.m in Sources */,
+				65C68C601D771A8200C6A95B /* RQTaskVC.m in Sources */,
+				65C68C571D77186700C6A95B /* RQTabBarController.m in Sources */,
+				65A3F04B1D7C83A200DA977E /* RQPersonalInfoVC.m in Sources */,
+				659039E11D7DBF3E0055490F /* RQQuestionCell.m in Sources */,
+				65519DEE1D79E8B90048B364 /* RQTableViewFirstCell.m in Sources */,
+				65519DE81D79E7820048B364 /* RQMineHeader.m in Sources */,
+				65961B341D786B9A00949AE7 /* RQInfoTableViewCell.m in Sources */,
+				659039D21D7DBABC0055490F /* RQQuestionDetailVC.m in Sources */,
+				65C68C6A1D771AF200C6A95B /* RQMineVC.m in Sources */,
+				659039BE1D7DAD4D0055490F /* RQCommentDetailVC.m in Sources */,
+				659039D61D7DBC1F0055490F /* RQQuestionHead.m in Sources */,
+				65519DF31D79E8D10048B364 /* RQTableViewSecondCell.m in Sources */,
+				65961B3A1D786E9900949AE7 /* RQTaskCell.m in Sources */,
+				659039C31D7DADC00055490F /* RQCommentDetailCell.m in Sources */,
+				65A3F0371D7C5D3F00DA977E /* RQFollowUpCommentVC.m in Sources */,
+				65A3F0321D7C4E1900DA977E /* RQPartyScoreVC.m in Sources */,
+				659039AE1D7D9F2E0055490F /* RQModifyEmailVC.m in Sources */,
+				65A3F0501D7C865A00DA977E /* RQPersonalInfoCell.m in Sources */,
+				659039D91D7DBC340055490F /* RQQuestionFoot.m in Sources */,
+				65A3F0461D7C7DFF00DA977E /* RQCollectCell.m in Sources */,
+				65C68C5B1D771A3D00C6A95B /* RQInformationVC.m in Sources */,
+				659039A91D7D9D4C0055490F /* RQModifyNameVC.m in Sources */,
+				659039CD1D7DB7500055490F /* RQSearchVC.m in Sources */,
+				659039C81D7DB5F80055490F /* RQInfomationDetailVC.m in Sources */,
+				65C68C3D1D77178B00C6A95B /* main.m in Sources */,
+				659039B81D7DA34B0055490F /* RQChooseSexualVC.m in Sources */,
+				659039B31D7DA0820055490F /* RQRetrievePasswordVC.m in Sources */,
+				65C68C651D771AD000C6A95B /* RQPartyHistoryVC.m in Sources */,
+				65C68C6E1D771F3000C6A95B /* RQNavigationVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		65C68C491D77178B00C6A95B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65C68C4A1D77178B00C6A95B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65C68C4D1D77178B00C6A95B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		65C68C4E1D77178B00C6A95B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65C68C501D77178B00C6A95B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F07D18DFA180BD9A797A948A /* Pods-RQPartyMember.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RQPartyMember/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fourb.com.RQPartyMember;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		65C68C511D77178B00C6A95B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC4BE91486CE713E1048A7F2 /* Pods-RQPartyMember.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RQPartyMember/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fourb.com.RQPartyMember;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65C68C331D77178B00C6A95B /* Build configuration list for PBXProject "RQPartyMember" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65C68C4D1D77178B00C6A95B /* Debug */,
+				65C68C4E1D77178B00C6A95B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65C68C4F1D77178B00C6A95B /* Build configuration list for PBXNativeTarget "RQPartyMember" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65C68C501D77178B00C6A95B /* Debug */,
+				65C68C511D77178B00C6A95B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65C68C301D77178B00C6A95B /* Project object */;
+}

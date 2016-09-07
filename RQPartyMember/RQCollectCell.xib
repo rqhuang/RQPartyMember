@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1912" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="RQCollectCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="98"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="97"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="test3" translatesAutoresizingMaskIntoConstraints="NO" id="fvH-WR-aNj">
+                        <rect key="frame" x="15" y="10" width="77" height="77"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="fvH-WR-aNj" secondAttribute="height" multiplier="1:1" id="mnS-hs-MLO"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hUS-ZG-YX5">
+                        <rect key="frame" x="100" y="10" width="205" height="50"/>
+                        <string key="text">最后说一下使用pushViewController切换到下一个视图时，navigation controller按照以下3条顺序更改导航栏的左侧按钮（本段摘自网络）：
+1、如果B视图有一个自定义的左侧按钮（leftBarButtonItem），则会显示这个自定义按钮；
+2、如果B没有自定义按钮，但是A视图的backBarButtonItem属性有自定义项，则显示这个自定义项；</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="人民日报    2016-08-09" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PjQ-OK-3qj">
+                        <rect key="frame" x="163" y="68" width="142" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="0x6-fX-mZn"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.36078431370000003" green="0.36078431370000003" blue="0.36078431370000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="PjQ-OK-3qj" firstAttribute="trailing" secondItem="hUS-ZG-YX5" secondAttribute="trailing" id="6XK-2t-ROS"/>
+                    <constraint firstItem="fvH-WR-aNj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="6Xq-xM-1Mg"/>
+                    <constraint firstAttribute="trailing" secondItem="PjQ-OK-3qj" secondAttribute="trailing" constant="15" id="Av5-ab-YST"/>
+                    <constraint firstItem="hUS-ZG-YX5" firstAttribute="leading" secondItem="fvH-WR-aNj" secondAttribute="trailing" constant="8" id="H7B-HT-jr3"/>
+                    <constraint firstItem="fvH-WR-aNj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="OvY-yh-XO3"/>
+                    <constraint firstItem="hUS-ZG-YX5" firstAttribute="top" secondItem="fvH-WR-aNj" secondAttribute="top" id="Ptg-Vp-e5t"/>
+                    <constraint firstAttribute="bottom" secondItem="fvH-WR-aNj" secondAttribute="bottom" constant="10" id="SlV-dd-OIH"/>
+                    <constraint firstAttribute="bottom" secondItem="PjQ-OK-3qj" secondAttribute="bottom" constant="8" id="byN-Qb-Ewo"/>
+                    <constraint firstItem="PjQ-OK-3qj" firstAttribute="top" secondItem="hUS-ZG-YX5" secondAttribute="bottom" constant="8" id="uA2-1f-a8j"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="249" y="309.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="test3" width="59" height="51"/>
+    </resources>
+</document>
