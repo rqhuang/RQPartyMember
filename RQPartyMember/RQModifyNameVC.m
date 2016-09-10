@@ -18,6 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"保存" style:UIBarButtonItemStylePlain target:self action:@selector(save:)];
+    self.navigationItem.rightBarButtonItem.tintColor = [UIColor whiteColor];
     self.navigationItem.title = @"修改姓名";
 }
 

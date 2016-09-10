@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+typedef void(^loginComplete)(BOOL flag);
 @interface RQLoginVC : UIViewController
-
+@property(nonatomic,copy) loginComplete complete;
 @end

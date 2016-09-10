@@ -41,12 +41,11 @@
     UIBarButtonItem *returnButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@""] style:UIBarButtonItemStylePlain target:nil action:nil];
     returnButtonItem.title = @"";
     self.navigationItem.backBarButtonItem = returnButtonItem;
+    self.automaticallyAdjustsScrollViewInsets = NO;
 }
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     self.navigationController.navigationBarHidden = YES;
-    
-   
 }
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];

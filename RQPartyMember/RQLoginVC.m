@@ -49,4 +49,7 @@
     RQForgotPasswordVC *forgotPasswordVC = [[RQForgotPasswordVC alloc] initWithNibName:@"RQForgotPasswordVC" bundle:nil];
     [self.navigationController pushViewController:forgotPasswordVC animated:YES];
 }
+- (IBAction)login:(UIButton*)sender {
+    self.complete(YES);
+}
 @end

@@ -7,7 +7,7 @@
 //
 
 #import "RQNavigationVC.h"
-
+#import "UIImage+ColorImage.h"
 @interface RQNavigationVC ()
 
 @end
@@ -25,6 +25,9 @@
     NSDictionary * dict = [NSDictionary dictionaryWithObject:color forKey:NSForegroundColorAttributeName];
     //大功告成
     self.navigationBar.titleTextAttributes = dict;
+    [[UIBarButtonItem appearance] setTintColor:[UIColor whiteColor]];
+    [self.navigationBar setBackgroundImage:[UIImage imageWithColor:[UIColor redColor]] forBarPosition:UIBarPositionAny barMetrics:UIBarMetricsDefault]; //此处使底部线条颜色为红色
+    [self.navigationBar setShadowImage:[UIImage imageWithColor:[UIColor redColor]]];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -105,6 +105,9 @@
                         </userDefinedRuntimeAttribute>
                         <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                     </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="login:" destination="-1" eventType="touchUpInside" id="qSh-SG-hrO"/>
+                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>

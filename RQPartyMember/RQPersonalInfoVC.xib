@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RQPersonalInfoVC">
@@ -19,8 +20,18 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="98N-Qa-TXl">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="154"/>
                     <subviews>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="test4" translatesAutoresizingMaskIntoConstraints="NO" id="b9m-vt-ie1">
-                            <rect key="frame" x="134" y="52" width="52" height="51"/>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="test4" translatesAutoresizingMaskIntoConstraints="NO" id="b9m-vt-ie1">
+                            <rect key="frame" x="125" y="42" width="70" height="70"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="b9m-vt-ie1" secondAttribute="height" multiplier="1:1" id="cWK-Wz-qWQ"/>
+                                <constraint firstAttribute="width" constant="70" id="tiX-xW-Eri"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="35"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                            </userDefinedRuntimeAttributes>
                         </imageView>
                     </subviews>
                     <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>

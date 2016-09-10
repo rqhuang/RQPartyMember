@@ -25,9 +25,11 @@
     RQLoginVC *loginVC = [[RQLoginVC alloc] initWithNibName:@"RQLoginVC" bundle:nil];
     RQNavigationVC *rootNav = [[RQNavigationVC alloc] initWithRootViewController:loginVC];
     self.window.rootViewController = rootNav;
-
-//    RQTabBarController *tabBarVC = [[RQTabBarController alloc] init];
-//    self.window.rootViewController = tabBarVC;
+    AppDelegate *weakSelf = self;
+    loginVC.complete = ^(BOOL flage) {
+            RQTabBarController *tabBarVC = [[RQTabBarController alloc] init];
+            weakSelf.window.rootViewController = tabBarVC;
+    };
     [self.window makeKeyAndVisible];
     return YES;
 }

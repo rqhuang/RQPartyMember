@@ -25,7 +25,6 @@
                     </connections>
                 </tableView>
             </subviews>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstItem="EvU-ry-nEi" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Eek-PT-Mfi"/>
                 <constraint firstAttribute="bottom" secondItem="EvU-ry-nEi" secondAttribute="bottom" id="H0Q-nP-Z76"/>

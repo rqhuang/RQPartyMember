@@ -23,6 +23,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     self.edgesForExtendedLayout = UIRectEdgeNone;
+    self.navigationItem.title = @"个人资料";
     [self.tableView registerNib:[UINib nibWithNibName:@"RQPersonalInfoCell" bundle:nil] forCellReuseIdentifier:@"cell"];
 }
 

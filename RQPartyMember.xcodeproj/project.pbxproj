@@ -14,6 +14,7 @@
 		65519DEF1D79E8B90048B364 /* RQTableViewFirstCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65519DED1D79E8B90048B364 /* RQTableViewFirstCell.xib */; };
 		65519DF31D79E8D10048B364 /* RQTableViewSecondCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65519DF11D79E8D10048B364 /* RQTableViewSecondCell.m */; };
 		65519DF41D79E8D10048B364 /* RQTableViewSecondCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65519DF21D79E8D10048B364 /* RQTableViewSecondCell.xib */; };
+		658C889C1D8466A60038E6B5 /* UIImage+ColorImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 658C889B1D8466A60038E6B5 /* UIImage+ColorImage.m */; };
 		659039A91D7D9D4C0055490F /* RQModifyNameVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 659039A71D7D9D4C0055490F /* RQModifyNameVC.m */; };
 		659039AA1D7D9D4C0055490F /* RQModifyNameVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 659039A81D7D9D4C0055490F /* RQModifyNameVC.xib */; };
 		659039AE1D7D9F2E0055490F /* RQModifyEmailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 659039AC1D7D9F2E0055490F /* RQModifyEmailVC.m */; };
@@ -102,6 +103,8 @@
 		65519DF01D79E8D10048B364 /* RQTableViewSecondCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQTableViewSecondCell.h; sourceTree = "<group>"; };
 		65519DF11D79E8D10048B364 /* RQTableViewSecondCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQTableViewSecondCell.m; sourceTree = "<group>"; };
 		65519DF21D79E8D10048B364 /* RQTableViewSecondCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RQTableViewSecondCell.xib; sourceTree = "<group>"; };
+		658C889A1D8466A60038E6B5 /* UIImage+ColorImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ColorImage.h"; sourceTree = "<group>"; };
+		658C889B1D8466A60038E6B5 /* UIImage+ColorImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ColorImage.m"; sourceTree = "<group>"; };
 		659039A61D7D9D4C0055490F /* RQModifyNameVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQModifyNameVC.h; sourceTree = "<group>"; };
 		659039A71D7D9D4C0055490F /* RQModifyNameVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQModifyNameVC.m; sourceTree = "<group>"; };
 		659039A81D7D9D4C0055490F /* RQModifyNameVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RQModifyNameVC.xib; sourceTree = "<group>"; };
@@ -397,6 +400,8 @@
 				65BA6D741D80566C0097AC72 /* ZFStarSortReusableView.xib */,
 				659E2EFA1D83A65600008C55 /* RQLineView.h */,
 				659E2EFB1D83A65600008C55 /* RQLineView.m */,
+				658C889A1D8466A60038E6B5 /* UIImage+ColorImage.h */,
+				658C889B1D8466A60038E6B5 /* UIImage+ColorImage.m */,
 			);
 			name = Commons;
 			sourceTree = "<group>";
@@ -629,6 +634,7 @@
 				65BA6D791D8056C10097AC72 /* ZFStarCollectionViewCell.m in Sources */,
 				65BA6D751D80566C0097AC72 /* ZFStarSortReusableView.m in Sources */,
 				659E2F0B1D83CAA100008C55 /* RQRegisterCell.m in Sources */,
+				658C889C1D8466A60038E6B5 /* UIImage+ColorImage.m in Sources */,
 				65519DE81D79E7820048B364 /* RQMineHeader.m in Sources */,
 				65961B341D786B9A00949AE7 /* RQInfoTableViewCell.m in Sources */,
 				659039D21D7DBABC0055490F /* RQQuestionDetailVC.m in Sources */,

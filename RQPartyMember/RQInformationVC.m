@@ -30,6 +30,7 @@
     self.navigationItem.title = @"资讯";
     [self.tableView registerNib:[UINib nibWithNibName:@"RQInfoTableViewCell" bundle:nil] forCellReuseIdentifier:@"info"];
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"search.png"] style:UIBarButtonItemStylePlain target:self action:@selector(searchClick:)];
+
     UINib *nib = [UINib nibWithNibName:@"ZFStarSortReusableView" bundle:nil];
     self.horizontalTableView = [[nib instantiateWithOwner:self options:nil] firstObject];
     [self.view addSubview:self.horizontalTableView];
