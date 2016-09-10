@@ -8,6 +8,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RQInformationVC">
             <connections>
                 <outlet property="tableView" destination="Vce-Ty-iVH" id="UKx-Rb-Wb7"/>
+                <outlet property="tableViewTopConstrait" destination="ESG-DY-hyT" id="ycg-0i-hNo"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -16,8 +17,8 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="default" rowHeight="212" sectionHeaderHeight="1" sectionFooterHeight="5" translatesAutoresizingMaskIntoConstraints="NO" id="Vce-Ty-iVH">
-                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="default" rowHeight="212" sectionHeaderHeight="1" sectionFooterHeight="6" translatesAutoresizingMaskIntoConstraints="NO" id="Vce-Ty-iVH">
+                    <rect key="frame" x="0.0" y="44" width="320" height="524"/>
                     <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                     <connections>
                         <outlet property="dataSource" destination="-1" id="NIy-vP-hor"/>
@@ -28,8 +29,8 @@
             <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstAttribute="bottom" secondItem="Vce-Ty-iVH" secondAttribute="bottom" id="4Hi-eX-AcD"/>
+                <constraint firstItem="Vce-Ty-iVH" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="44" id="ESG-DY-hyT"/>
                 <constraint firstAttribute="trailing" secondItem="Vce-Ty-iVH" secondAttribute="trailing" id="Nhu-ZB-ojp"/>
-                <constraint firstItem="Vce-Ty-iVH" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="SDh-v0-9Yg"/>
                 <constraint firstItem="Vce-Ty-iVH" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="SHi-d3-atD"/>
             </constraints>
             <point key="canvasLocation" x="280" y="319"/>

@@ -12,7 +12,7 @@
 #import "RQModifyEmailVC.h"
 #import "RQRetrievePasswordVC.h"
 #import "RQChooseSexualVC.h"
-
+#import "RQModifyPartyAddressVC.h"
 @interface RQPersonalInfoVC ()
 @property(nonatomic,weak) IBOutlet UITableView *tableView;
 @end
@@ -79,10 +79,12 @@
             vc = [[RQModifyNameVC alloc] initWithNibName:@"RQModifyNameVC" bundle:nil];
         }
         else if (indexPath.section == 2) {
-            vc = [[RQModifyEmailVC alloc] initWithNibName:@"RQModifyEmailVC" bundle:nil];
+            vc = [[RQModifyPartyAddressVC alloc] initWithNibName:@"RQModifyPartyAddressVC" bundle:nil];
         }
         else if (indexPath.section == 3) {
-            vc = [[RQRetrievePasswordVC alloc] initWithNibName:@"RQRetrievePasswordVC" bundle:nil];
+            vc = [[RQModifyEmailVC alloc] initWithNibName:@"RQModifyEmailVC" bundle:nil];
+
+//            vc = [[RQRetrievePasswordVC alloc] initWithNibName:@"RQRetrievePasswordVC" bundle:nil];
         }
         [self.navigationController pushViewController:vc animated:YES];
     }

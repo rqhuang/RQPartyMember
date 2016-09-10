@@ -12,9 +12,12 @@
 #import "RQInfomationDetailVC.h"
 #import "RQSearchVC.h"
 #import "RQCollectVC.h"
+#import "ZFStarSortReusableView.h"
 
 @interface RQInformationVC ()
 @property(nonatomic,weak) IBOutlet UITableView *tableView;
+@property(nonatomic,strong) ZFStarSortReusableView *horizontalTableView;
+@property(nonatomic,weak) IBOutlet NSLayoutConstraint *tableViewTopConstrait;
 @end
 
 @implementation RQInformationVC
@@ -22,9 +25,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    self.edgesForExtendedLayout = UIRectEdgeNone;
+
     self.navigationItem.title = @"资讯";
     [self.tableView registerNib:[UINib nibWithNibName:@"RQInfoTableViewCell" bundle:nil] forCellReuseIdentifier:@"info"];
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"search.png"] style:UIBarButtonItemStylePlain target:self action:@selector(searchClick:)];
+    UINib *nib = [UINib nibWithNibName:@"ZFStarSortReusableView" bundle:nil];
+    self.horizontalTableView = [[nib instantiateWithOwner:self options:nil] firstObject];
+    [self.view addSubview:self.horizontalTableView];
+    [self.horizontalTableView setTranslatesAutoresizingMaskIntoConstraints:NO];
+    [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-0-[horizontalTableView]-0-|" options:0 metrics:nil views:@{@"horizontalTableView":self.horizontalTableView}]];
+    [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-0-[horizontalTableView(height)]" options:0 metrics:@{@"height":@(self.tableViewTopConstrait.constant)} views:@{@"horizontalTableView":self.horizontalTableView}]];
+    self.horizontalTableView.characters = @[@" 热点头条 ",@" 两学一做 ",@" 党建知识 ",@" 党建工作 "];
 }
 - (void)searchClick:(UIBarButtonItem*)sender {
     RQSearchVC *searchVC = [[RQSearchVC alloc] initWithNibName:@"RQSearchVC" bundle:nil];

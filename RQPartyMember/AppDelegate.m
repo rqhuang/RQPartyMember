@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "RQTabBarController.h"
+#import "RQLoginVC.h"
+#import "RQNavigationVC.h"
 
 @interface AppDelegate ()
 
@@ -19,8 +21,13 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth([UIScreen mainScreen].bounds), CGRectGetHeight([UIScreen mainScreen].bounds))];
-    RQTabBarController *tabBarVC = [[RQTabBarController alloc] init];
-    self.window.rootViewController = tabBarVC;
+    
+    RQLoginVC *loginVC = [[RQLoginVC alloc] initWithNibName:@"RQLoginVC" bundle:nil];
+    RQNavigationVC *rootNav = [[RQNavigationVC alloc] initWithRootViewController:loginVC];
+    self.window.rootViewController = rootNav;
+
+//    RQTabBarController *tabBarVC = [[RQTabBarController alloc] init];
+//    self.window.rootViewController = tabBarVC;
     [self.window makeKeyAndVisible];
     return YES;
 }

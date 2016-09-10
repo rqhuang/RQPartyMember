@@ -27,12 +27,12 @@
                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wtb-TZ-oKE">
+                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wtb-TZ-oKE">
                         <rect key="frame" x="100" y="68" width="31" height="15"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="No4-3B-jyS">
-                                <rect key="frame" x="15" y="0.0" width="16" height="15"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <rect key="frame" x="15" y="0.0" width="18" height="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.98431372549019602" green="0.72156862745098038" blue="0.058823529411764705" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -93,6 +93,10 @@
                     <constraint firstItem="z66-yh-vlJ" firstAttribute="leading" secondItem="TRn-JP-dzl" secondAttribute="trailing" constant="8" id="pLB-f3-By7"/>
                 </constraints>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="bt" destination="hc2-dn-Qok" id="I5r-lp-7D3"/>
+                <outlet property="scroeLb" destination="No4-3B-jyS" id="Qry-OV-7a8"/>
+            </connections>
             <point key="canvasLocation" x="266" y="283.5"/>
         </tableViewCell>
     </objects>

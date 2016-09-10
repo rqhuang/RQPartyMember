@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1912" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RQRegisterVC">
+            <connections>
+                <outlet property="tableView" destination="nUL-Gq-DnN" id="fqP-Fd-7UM"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="unw-x7-HHe">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="129"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="partyBadge" translatesAutoresizingMaskIntoConstraints="NO" id="sOc-HS-f3r">
+                            <rect key="frame" x="123" y="29" width="74" height="74"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="74" id="K7t-xY-xrp"/>
+                                <constraint firstAttribute="width" constant="74" id="aCR-Mb-OrF"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="sOc-HS-f3r" firstAttribute="centerX" secondItem="unw-x7-HHe" secondAttribute="centerX" id="3Ux-2H-doD"/>
+                        <constraint firstAttribute="bottom" secondItem="sOc-HS-f3r" secondAttribute="bottom" constant="26" id="5tD-qw-1el"/>
+                        <constraint firstItem="sOc-HS-f3r" firstAttribute="top" secondItem="unw-x7-HHe" secondAttribute="top" constant="29" id="TkV-UP-xmF"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kof-35-KlL">
+                    <rect key="frame" x="0.0" y="129" width="320" height="439"/>
+                    <subviews>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="grouped" separatorStyle="none" rowHeight="44" sectionHeaderHeight="3" sectionFooterHeight="3" translatesAutoresizingMaskIntoConstraints="NO" id="nUL-Gq-DnN">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="291"/>
+                            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="A9Z-Vo-8pR"/>
+                                <outlet property="delegate" destination="-1" id="SIe-yp-oPv"/>
+                            </connections>
+                        </tableView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KVz-03-F82">
+                            <rect key="frame" x="63" y="346" width="194" height="40"/>
+                            <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="UDm-0g-clz"/>
+                            </constraints>
+                            <state key="normal" title="注册">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="4"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="regist:" destination="-1" eventType="touchUpInside" id="8NU-83-I74"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="nUL-Gq-DnN" firstAttribute="top" secondItem="Kof-35-KlL" secondAttribute="top" id="5fs-sB-hGI"/>
+                        <constraint firstAttribute="trailing" secondItem="KVz-03-F82" secondAttribute="trailing" constant="63" id="A6u-Lm-YJx"/>
+                        <constraint firstItem="KVz-03-F82" firstAttribute="top" secondItem="nUL-Gq-DnN" secondAttribute="bottom" constant="55" id="QCN-bn-KRd"/>
+                        <constraint firstItem="KVz-03-F82" firstAttribute="centerX" secondItem="Kof-35-KlL" secondAttribute="centerX" id="TFf-OL-TIf"/>
+                        <constraint firstAttribute="bottom" secondItem="KVz-03-F82" secondAttribute="bottom" constant="53" id="gve-g7-O4M"/>
+                        <constraint firstItem="nUL-Gq-DnN" firstAttribute="leading" secondItem="Kof-35-KlL" secondAttribute="leading" id="oCD-zH-wjH"/>
+                        <constraint firstAttribute="trailing" secondItem="nUL-Gq-DnN" secondAttribute="trailing" id="uKb-el-AI2"/>
+                        <constraint firstItem="KVz-03-F82" firstAttribute="leading" secondItem="Kof-35-KlL" secondAttribute="leading" constant="63" id="z3q-oR-7kH"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Kof-35-KlL" firstAttribute="top" secondItem="unw-x7-HHe" secondAttribute="bottom" id="BeK-zu-Xk2"/>
+                <constraint firstItem="unw-x7-HHe" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="CJh-h3-jbG"/>
+                <constraint firstItem="unw-x7-HHe" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="KxD-hJ-SUg"/>
+                <constraint firstItem="Kof-35-KlL" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="M1k-G7-dQY"/>
+                <constraint firstAttribute="bottom" secondItem="Kof-35-KlL" secondAttribute="bottom" id="XgW-Et-hv3"/>
+                <constraint firstAttribute="trailing" secondItem="unw-x7-HHe" secondAttribute="trailing" id="b1p-bw-H5U"/>
+                <constraint firstAttribute="trailing" secondItem="Kof-35-KlL" secondAttribute="trailing" id="pgv-H7-Y7u"/>
+            </constraints>
+            <point key="canvasLocation" x="250" y="318"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="partyBadge" width="74" height="74"/>
+    </resources>
+</document>

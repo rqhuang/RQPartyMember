@@ -30,7 +30,9 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+- (IBAction)segementValueChange:(id)sender {
+    [self.tableView reloadData];
+}
 /*
 #pragma mark - Navigation
 
@@ -48,11 +50,24 @@
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     RQTaskCell *cell = [tableView dequeueReusableCellWithIdentifier:@"task"];
+    if (self.segmented.selectedSegmentIndex == 1) {
+        [cell.bt setTitle:@"开始答题" forState:UIControlStateNormal];
+        cell.scroeLb.text = @"+4";
+    }
+    else {
+        [cell.bt setTitle:@"查看答题" forState:UIControlStateNormal];
+        cell.scroeLb.text = @"4";
+    }
+    [cell.bt addTarget:self action:@selector(buttonClick:) forControlEvents:UIControlEventTouchUpInside];
     return cell;
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    RQQuestionDetailVC *questionDetailVC = [[RQQuestionDetailVC alloc] initWithNibName:@"RQQuestionDetailVC" bundle:nil];
-    [self.navigationController pushViewController:questionDetailVC animated:YES];
+    
 }
-
+- (void)buttonClick:(UIButton*) sender {
+    if (self.segmented.selectedSegmentIndex == 0) {
+        RQQuestionDetailVC *questionDetailVC = [[RQQuestionDetailVC alloc] initWithNibName:@"RQQuestionDetailVC" bundle:nil];
+        [self.navigationController pushViewController:questionDetailVC animated:YES];
+    }
+}
 @end

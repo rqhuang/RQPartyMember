@@ -42,6 +42,23 @@
 		65961B351D786B9A00949AE7 /* RQInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65961B331D786B9A00949AE7 /* RQInfoTableViewCell.xib */; };
 		65961B3A1D786E9900949AE7 /* RQTaskCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65961B381D786E9900949AE7 /* RQTaskCell.m */; };
 		65961B3B1D786E9900949AE7 /* RQTaskCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65961B391D786E9900949AE7 /* RQTaskCell.xib */; };
+		659E2EF31D839E8000008C55 /* RQModifyPartyAddressVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 659E2EF11D839E8000008C55 /* RQModifyPartyAddressVC.m */; };
+		659E2EF41D839E8000008C55 /* RQModifyPartyAddressVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 659E2EF21D839E8000008C55 /* RQModifyPartyAddressVC.xib */; };
+		659E2EF81D83A62F00008C55 /* RQPartyAddressCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 659E2EF61D83A62F00008C55 /* RQPartyAddressCell.m */; };
+		659E2EF91D83A62F00008C55 /* RQPartyAddressCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 659E2EF71D83A62F00008C55 /* RQPartyAddressCell.xib */; };
+		659E2EFC1D83A65600008C55 /* RQLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 659E2EFB1D83A65600008C55 /* RQLineView.m */; };
+		659E2F011D83BBD800008C55 /* RQLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 659E2EFF1D83BBD800008C55 /* RQLoginVC.m */; };
+		659E2F021D83BBD800008C55 /* RQLoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 659E2F001D83BBD800008C55 /* RQLoginVC.xib */; };
+		659E2F061D83C33400008C55 /* RQRegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 659E2F041D83C33400008C55 /* RQRegisterVC.m */; };
+		659E2F071D83C33400008C55 /* RQRegisterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 659E2F051D83C33400008C55 /* RQRegisterVC.xib */; };
+		659E2F0B1D83CAA100008C55 /* RQRegisterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 659E2F091D83CAA100008C55 /* RQRegisterCell.m */; };
+		659E2F0C1D83CAA100008C55 /* RQRegisterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 659E2F0A1D83CAA100008C55 /* RQRegisterCell.xib */; };
+		659E2F101D83D1D900008C55 /* RQSettingPasswordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 659E2F0E1D83D1D900008C55 /* RQSettingPasswordVC.m */; };
+		659E2F111D83D1D900008C55 /* RQSettingPasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 659E2F0F1D83D1D900008C55 /* RQSettingPasswordVC.xib */; };
+		659E2F151D83D59100008C55 /* RQForgotPasswordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 659E2F131D83D59100008C55 /* RQForgotPasswordVC.m */; };
+		659E2F161D83D59100008C55 /* RQForgotPasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 659E2F141D83D59100008C55 /* RQForgotPasswordVC.xib */; };
+		659E2F1A1D83D76900008C55 /* RQForgotPasswordToastVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 659E2F181D83D76900008C55 /* RQForgotPasswordToastVC.m */; };
+		659E2F1B1D83D76900008C55 /* RQForgotPasswordToastVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 659E2F191D83D76900008C55 /* RQForgotPasswordToastVC.xib */; };
 		65A3F0321D7C4E1900DA977E /* RQPartyScoreVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A3F0301D7C4E1900DA977E /* RQPartyScoreVC.m */; };
 		65A3F0331D7C4E1900DA977E /* RQPartyScoreVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65A3F0311D7C4E1900DA977E /* RQPartyScoreVC.xib */; };
 		65A3F0371D7C5D3F00DA977E /* RQFollowUpCommentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A3F0351D7C5D3F00DA977E /* RQFollowUpCommentVC.m */; };
@@ -56,6 +73,9 @@
 		65A3F04C1D7C83A200DA977E /* RQPersonalInfoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65A3F04A1D7C83A200DA977E /* RQPersonalInfoVC.xib */; };
 		65A3F0501D7C865A00DA977E /* RQPersonalInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A3F04E1D7C865A00DA977E /* RQPersonalInfoCell.m */; };
 		65A3F0511D7C865A00DA977E /* RQPersonalInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65A3F04F1D7C865A00DA977E /* RQPersonalInfoCell.xib */; };
+		65BA6D751D80566C0097AC72 /* ZFStarSortReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BA6D731D80566C0097AC72 /* ZFStarSortReusableView.m */; };
+		65BA6D761D80566C0097AC72 /* ZFStarSortReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65BA6D741D80566C0097AC72 /* ZFStarSortReusableView.xib */; };
+		65BA6D791D8056C10097AC72 /* ZFStarCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BA6D781D8056C10097AC72 /* ZFStarCollectionViewCell.m */; };
 		65C68C3D1D77178B00C6A95B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C68C3C1D77178B00C6A95B /* main.m */; };
 		65C68C401D77178B00C6A95B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C68C3F1D77178B00C6A95B /* AppDelegate.m */; };
 		65C68C481D77178B00C6A95B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65C68C471D77178B00C6A95B /* Assets.xcassets */; };
@@ -124,6 +144,32 @@
 		65961B371D786E9900949AE7 /* RQTaskCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQTaskCell.h; sourceTree = "<group>"; };
 		65961B381D786E9900949AE7 /* RQTaskCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQTaskCell.m; sourceTree = "<group>"; };
 		65961B391D786E9900949AE7 /* RQTaskCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RQTaskCell.xib; sourceTree = "<group>"; };
+		659E2EF01D839E8000008C55 /* RQModifyPartyAddressVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQModifyPartyAddressVC.h; sourceTree = "<group>"; };
+		659E2EF11D839E8000008C55 /* RQModifyPartyAddressVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQModifyPartyAddressVC.m; sourceTree = "<group>"; };
+		659E2EF21D839E8000008C55 /* RQModifyPartyAddressVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RQModifyPartyAddressVC.xib; sourceTree = "<group>"; };
+		659E2EF51D83A62F00008C55 /* RQPartyAddressCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQPartyAddressCell.h; sourceTree = "<group>"; };
+		659E2EF61D83A62F00008C55 /* RQPartyAddressCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQPartyAddressCell.m; sourceTree = "<group>"; };
+		659E2EF71D83A62F00008C55 /* RQPartyAddressCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RQPartyAddressCell.xib; sourceTree = "<group>"; };
+		659E2EFA1D83A65600008C55 /* RQLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQLineView.h; sourceTree = "<group>"; };
+		659E2EFB1D83A65600008C55 /* RQLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQLineView.m; sourceTree = "<group>"; };
+		659E2EFE1D83BBD800008C55 /* RQLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQLoginVC.h; sourceTree = "<group>"; };
+		659E2EFF1D83BBD800008C55 /* RQLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQLoginVC.m; sourceTree = "<group>"; };
+		659E2F001D83BBD800008C55 /* RQLoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RQLoginVC.xib; sourceTree = "<group>"; };
+		659E2F031D83C33400008C55 /* RQRegisterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQRegisterVC.h; sourceTree = "<group>"; };
+		659E2F041D83C33400008C55 /* RQRegisterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQRegisterVC.m; sourceTree = "<group>"; };
+		659E2F051D83C33400008C55 /* RQRegisterVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RQRegisterVC.xib; sourceTree = "<group>"; };
+		659E2F081D83CAA100008C55 /* RQRegisterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQRegisterCell.h; sourceTree = "<group>"; };
+		659E2F091D83CAA100008C55 /* RQRegisterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQRegisterCell.m; sourceTree = "<group>"; };
+		659E2F0A1D83CAA100008C55 /* RQRegisterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RQRegisterCell.xib; sourceTree = "<group>"; };
+		659E2F0D1D83D1D900008C55 /* RQSettingPasswordVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQSettingPasswordVC.h; sourceTree = "<group>"; };
+		659E2F0E1D83D1D900008C55 /* RQSettingPasswordVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQSettingPasswordVC.m; sourceTree = "<group>"; };
+		659E2F0F1D83D1D900008C55 /* RQSettingPasswordVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RQSettingPasswordVC.xib; sourceTree = "<group>"; };
+		659E2F121D83D59100008C55 /* RQForgotPasswordVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQForgotPasswordVC.h; sourceTree = "<group>"; };
+		659E2F131D83D59100008C55 /* RQForgotPasswordVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQForgotPasswordVC.m; sourceTree = "<group>"; };
+		659E2F141D83D59100008C55 /* RQForgotPasswordVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RQForgotPasswordVC.xib; sourceTree = "<group>"; };
+		659E2F171D83D76900008C55 /* RQForgotPasswordToastVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQForgotPasswordToastVC.h; sourceTree = "<group>"; };
+		659E2F181D83D76900008C55 /* RQForgotPasswordToastVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQForgotPasswordToastVC.m; sourceTree = "<group>"; };
+		659E2F191D83D76900008C55 /* RQForgotPasswordToastVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RQForgotPasswordToastVC.xib; sourceTree = "<group>"; };
 		65A3F02F1D7C4E1900DA977E /* RQPartyScoreVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQPartyScoreVC.h; sourceTree = "<group>"; };
 		65A3F0301D7C4E1900DA977E /* RQPartyScoreVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQPartyScoreVC.m; sourceTree = "<group>"; };
 		65A3F0311D7C4E1900DA977E /* RQPartyScoreVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RQPartyScoreVC.xib; sourceTree = "<group>"; };
@@ -145,6 +191,11 @@
 		65A3F04D1D7C865A00DA977E /* RQPersonalInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQPersonalInfoCell.h; sourceTree = "<group>"; };
 		65A3F04E1D7C865A00DA977E /* RQPersonalInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQPersonalInfoCell.m; sourceTree = "<group>"; };
 		65A3F04F1D7C865A00DA977E /* RQPersonalInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RQPersonalInfoCell.xib; sourceTree = "<group>"; };
+		65BA6D721D80566C0097AC72 /* ZFStarSortReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFStarSortReusableView.h; sourceTree = "<group>"; };
+		65BA6D731D80566C0097AC72 /* ZFStarSortReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFStarSortReusableView.m; sourceTree = "<group>"; };
+		65BA6D741D80566C0097AC72 /* ZFStarSortReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZFStarSortReusableView.xib; sourceTree = "<group>"; };
+		65BA6D771D8056C10097AC72 /* ZFStarCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFStarCollectionViewCell.h; sourceTree = "<group>"; };
+		65BA6D781D8056C10097AC72 /* ZFStarCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFStarCollectionViewCell.m; sourceTree = "<group>"; };
 		65C68C381D77178B00C6A95B /* RQPartyMember.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RQPartyMember.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65C68C3C1D77178B00C6A95B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		65C68C3E1D77178B00C6A95B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -241,6 +292,12 @@
 				659039B51D7DA34B0055490F /* RQChooseSexualVC.h */,
 				659039B61D7DA34B0055490F /* RQChooseSexualVC.m */,
 				659039B71D7DA34B0055490F /* RQChooseSexualVC.xib */,
+				659E2EF01D839E8000008C55 /* RQModifyPartyAddressVC.h */,
+				659E2EF11D839E8000008C55 /* RQModifyPartyAddressVC.m */,
+				659E2EF21D839E8000008C55 /* RQModifyPartyAddressVC.xib */,
+				659E2EF51D83A62F00008C55 /* RQPartyAddressCell.h */,
+				659E2EF61D83A62F00008C55 /* RQPartyAddressCell.m */,
+				659E2EF71D83A62F00008C55 /* RQPartyAddressCell.xib */,
 			);
 			name = Mine;
 			sourceTree = "<group>";
@@ -305,6 +362,45 @@
 			name = Task;
 			sourceTree = "<group>";
 		};
+		659E2EFD1D83BA1100008C55 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				659E2EFE1D83BBD800008C55 /* RQLoginVC.h */,
+				659E2EFF1D83BBD800008C55 /* RQLoginVC.m */,
+				659E2F001D83BBD800008C55 /* RQLoginVC.xib */,
+				659E2F031D83C33400008C55 /* RQRegisterVC.h */,
+				659E2F041D83C33400008C55 /* RQRegisterVC.m */,
+				659E2F051D83C33400008C55 /* RQRegisterVC.xib */,
+				659E2F081D83CAA100008C55 /* RQRegisterCell.h */,
+				659E2F091D83CAA100008C55 /* RQRegisterCell.m */,
+				659E2F0A1D83CAA100008C55 /* RQRegisterCell.xib */,
+				659E2F0D1D83D1D900008C55 /* RQSettingPasswordVC.h */,
+				659E2F0E1D83D1D900008C55 /* RQSettingPasswordVC.m */,
+				659E2F0F1D83D1D900008C55 /* RQSettingPasswordVC.xib */,
+				659E2F121D83D59100008C55 /* RQForgotPasswordVC.h */,
+				659E2F131D83D59100008C55 /* RQForgotPasswordVC.m */,
+				659E2F141D83D59100008C55 /* RQForgotPasswordVC.xib */,
+				659E2F171D83D76900008C55 /* RQForgotPasswordToastVC.h */,
+				659E2F181D83D76900008C55 /* RQForgotPasswordToastVC.m */,
+				659E2F191D83D76900008C55 /* RQForgotPasswordToastVC.xib */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		65BA6D681D8053DA0097AC72 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				65BA6D771D8056C10097AC72 /* ZFStarCollectionViewCell.h */,
+				65BA6D781D8056C10097AC72 /* ZFStarCollectionViewCell.m */,
+				65BA6D721D80566C0097AC72 /* ZFStarSortReusableView.h */,
+				65BA6D731D80566C0097AC72 /* ZFStarSortReusableView.m */,
+				65BA6D741D80566C0097AC72 /* ZFStarSortReusableView.xib */,
+				659E2EFA1D83A65600008C55 /* RQLineView.h */,
+				659E2EFB1D83A65600008C55 /* RQLineView.m */,
+			);
+			name = Commons;
+			sourceTree = "<group>";
+		};
 		65C68C2F1D77178B00C6A95B = {
 			isa = PBXGroup;
 			children = (
@@ -326,6 +422,8 @@
 		65C68C3A1D77178B00C6A95B /* RQPartyMember */ = {
 			isa = PBXGroup;
 			children = (
+				659E2EFD1D83BA1100008C55 /* Login */,
+				65BA6D681D8053DA0097AC72 /* Commons */,
 				659039BA1D7DAD080055490F /* PartyHistory */,
 				65519DE51D79E7300048B364 /* Mine */,
 				65961B361D786E6D00949AE7 /* Task */,
@@ -426,21 +524,28 @@
 				65A3F0381D7C5D3F00DA977E /* RQFollowUpCommentVC.xib in Resources */,
 				65C68C611D771A8200C6A95B /* RQTaskVC.xib in Resources */,
 				659039DB1D7DBC460055490F /* RQQuestionHead.xib in Resources */,
+				659E2EF41D839E8000008C55 /* RQModifyPartyAddressVC.xib in Resources */,
 				65A3F03D1D7C5DE000DA977E /* RQFollowUpCommentCell.xib in Resources */,
 				659039B91D7DA34B0055490F /* RQChooseSexualVC.xib in Resources */,
 				65C68C4B1D77178B00C6A95B /* LaunchScreen.storyboard in Resources */,
+				659E2EF91D83A62F00008C55 /* RQPartyAddressCell.xib in Resources */,
 				65519DF41D79E8D10048B364 /* RQTableViewSecondCell.xib in Resources */,
+				659E2F111D83D1D900008C55 /* RQSettingPasswordVC.xib in Resources */,
 				65A3F0331D7C4E1900DA977E /* RQPartyScoreVC.xib in Resources */,
 				65A3F0511D7C865A00DA977E /* RQPersonalInfoCell.xib in Resources */,
+				659E2F1B1D83D76900008C55 /* RQForgotPasswordToastVC.xib in Resources */,
 				65519DEA1D79E7A30048B364 /* RQMineHeader.xib in Resources */,
 				659039D31D7DBABC0055490F /* RQQuestionDetailVC.xib in Resources */,
+				659E2F0C1D83CAA100008C55 /* RQRegisterCell.xib in Resources */,
 				65519DEF1D79E8B90048B364 /* RQTableViewFirstCell.xib in Resources */,
+				65BA6D761D80566C0097AC72 /* ZFStarSortReusableView.xib in Resources */,
 				659039E21D7DBF3E0055490F /* RQQuestionCell.xib in Resources */,
 				65961B351D786B9A00949AE7 /* RQInfoTableViewCell.xib in Resources */,
 				65C68C661D771AD000C6A95B /* RQPartyHistoryVC.xib in Resources */,
 				659039AF1D7D9F2E0055490F /* RQModifyEmailVC.xib in Resources */,
 				65A3F0421D7C7DB600DA977E /* RQCollectVC.xib in Resources */,
 				65A3F0471D7C7DFF00DA977E /* RQCollectCell.xib in Resources */,
+				659E2F021D83BBD800008C55 /* RQLoginVC.xib in Resources */,
 				65C68C481D77178B00C6A95B /* Assets.xcassets in Resources */,
 				65961B3B1D786E9900949AE7 /* RQTaskCell.xib in Resources */,
 				659039CE1D7DB7500055490F /* RQSearchVC.xib in Resources */,
@@ -451,6 +556,8 @@
 				659039BF1D7DAD4D0055490F /* RQCommentDetailVC.xib in Resources */,
 				65C68C5C1D771A3D00C6A95B /* RQInformationVC.xib in Resources */,
 				659039B41D7DA0820055490F /* RQRetrievePasswordVC.xib in Resources */,
+				659E2F071D83C33400008C55 /* RQRegisterVC.xib in Resources */,
+				659E2F161D83D59100008C55 /* RQForgotPasswordVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,7 +616,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				659E2F1A1D83D76900008C55 /* RQForgotPasswordToastVC.m in Sources */,
 				65A3F03C1D7C5DE000DA977E /* RQFollowUpCommentCell.m in Sources */,
+				659E2EFC1D83A65600008C55 /* RQLineView.m in Sources */,
 				65C68C401D77178B00C6A95B /* AppDelegate.m in Sources */,
 				65A3F0411D7C7DB600DA977E /* RQCollectVC.m in Sources */,
 				65C68C601D771A8200C6A95B /* RQTaskVC.m in Sources */,
@@ -517,21 +626,29 @@
 				65A3F04B1D7C83A200DA977E /* RQPersonalInfoVC.m in Sources */,
 				659039E11D7DBF3E0055490F /* RQQuestionCell.m in Sources */,
 				65519DEE1D79E8B90048B364 /* RQTableViewFirstCell.m in Sources */,
+				65BA6D791D8056C10097AC72 /* ZFStarCollectionViewCell.m in Sources */,
+				65BA6D751D80566C0097AC72 /* ZFStarSortReusableView.m in Sources */,
+				659E2F0B1D83CAA100008C55 /* RQRegisterCell.m in Sources */,
 				65519DE81D79E7820048B364 /* RQMineHeader.m in Sources */,
 				65961B341D786B9A00949AE7 /* RQInfoTableViewCell.m in Sources */,
 				659039D21D7DBABC0055490F /* RQQuestionDetailVC.m in Sources */,
 				65C68C6A1D771AF200C6A95B /* RQMineVC.m in Sources */,
+				659E2F101D83D1D900008C55 /* RQSettingPasswordVC.m in Sources */,
 				659039BE1D7DAD4D0055490F /* RQCommentDetailVC.m in Sources */,
 				659039D61D7DBC1F0055490F /* RQQuestionHead.m in Sources */,
 				65519DF31D79E8D10048B364 /* RQTableViewSecondCell.m in Sources */,
 				65961B3A1D786E9900949AE7 /* RQTaskCell.m in Sources */,
 				659039C31D7DADC00055490F /* RQCommentDetailCell.m in Sources */,
 				65A3F0371D7C5D3F00DA977E /* RQFollowUpCommentVC.m in Sources */,
+				659E2EF81D83A62F00008C55 /* RQPartyAddressCell.m in Sources */,
 				65A3F0321D7C4E1900DA977E /* RQPartyScoreVC.m in Sources */,
 				659039AE1D7D9F2E0055490F /* RQModifyEmailVC.m in Sources */,
 				65A3F0501D7C865A00DA977E /* RQPersonalInfoCell.m in Sources */,
 				659039D91D7DBC340055490F /* RQQuestionFoot.m in Sources */,
 				65A3F0461D7C7DFF00DA977E /* RQCollectCell.m in Sources */,
+				659E2F061D83C33400008C55 /* RQRegisterVC.m in Sources */,
+				659E2F011D83BBD800008C55 /* RQLoginVC.m in Sources */,
+				659E2F151D83D59100008C55 /* RQForgotPasswordVC.m in Sources */,
 				65C68C5B1D771A3D00C6A95B /* RQInformationVC.m in Sources */,
 				659039A91D7D9D4C0055490F /* RQModifyNameVC.m in Sources */,
 				659039CD1D7DB7500055490F /* RQSearchVC.m in Sources */,
@@ -540,6 +657,7 @@
 				659039B81D7DA34B0055490F /* RQChooseSexualVC.m in Sources */,
 				659039B31D7DA0820055490F /* RQRetrievePasswordVC.m in Sources */,
 				65C68C651D771AD000C6A95B /* RQPartyHistoryVC.m in Sources */,
+				659E2EF31D839E8000008C55 /* RQModifyPartyAddressVC.m in Sources */,
 				65C68C6E1D771F3000C6A95B /* RQNavigationVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

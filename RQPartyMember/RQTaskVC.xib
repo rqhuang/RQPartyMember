@@ -7,6 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RQTaskVC">
             <connections>
+                <outlet property="segmented" destination="umF-1r-Z3R" id="5Y3-xt-rIm"/>
                 <outlet property="tableView" destination="tIZ-bd-zvP" id="ZAe-Zk-1q4"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -19,10 +20,13 @@
                 <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="umF-1r-Z3R">
                     <rect key="frame" x="107" y="5" width="107" height="29"/>
                     <segments>
-                        <segment title="完成"/>
                         <segment title="未完成"/>
+                        <segment title="完成"/>
                     </segments>
                     <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <action selector="segementValueChange:" destination="-1" eventType="valueChanged" id="9gO-BV-qS6"/>
+                    </connections>
                 </segmentedControl>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="default" rowHeight="140" sectionHeaderHeight="1" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="tIZ-bd-zvP">
                     <rect key="frame" x="0.0" y="38" width="320" height="530"/>

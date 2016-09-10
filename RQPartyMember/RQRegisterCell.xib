@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1912" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="RQRegisterCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jd3-en-RvT">
+                        <rect key="frame" x="8" y="0.0" width="304" height="43"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iY8-Cg-acx">
+                                <rect key="frame" x="0.0" y="13" width="38" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yFH-8v-5y5">
+                                <rect key="frame" x="52" y="0.0" width="224" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oxV-Qy-VdA">
+                                <rect key="frame" x="284" y="12" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="nng-WH-J7g"/>
+                                    <constraint firstAttribute="height" constant="20" id="odl-23-gLq"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="yFH-8v-5y5" firstAttribute="top" secondItem="Jd3-en-RvT" secondAttribute="top" id="0aB-5y-uhe"/>
+                            <constraint firstItem="iY8-Cg-acx" firstAttribute="centerY" secondItem="Jd3-en-RvT" secondAttribute="centerY" id="5Wk-l2-MOa"/>
+                            <constraint firstAttribute="trailing" secondItem="oxV-Qy-VdA" secondAttribute="trailing" id="ISD-Cs-wy8"/>
+                            <constraint firstAttribute="bottom" secondItem="yFH-8v-5y5" secondAttribute="bottom" id="JO0-Hb-EBF"/>
+                            <constraint firstItem="yFH-8v-5y5" firstAttribute="leading" secondItem="iY8-Cg-acx" secondAttribute="trailing" constant="14" id="bvI-dp-l8Q"/>
+                            <constraint firstItem="iY8-Cg-acx" firstAttribute="leading" secondItem="Jd3-en-RvT" secondAttribute="leading" id="dSw-hs-Rqm"/>
+                            <constraint firstItem="yFH-8v-5y5" firstAttribute="centerY" secondItem="Jd3-en-RvT" secondAttribute="centerY" id="er8-Yw-V7t"/>
+                            <constraint firstItem="oxV-Qy-VdA" firstAttribute="centerY" secondItem="Jd3-en-RvT" secondAttribute="centerY" id="j6w-bT-g8G"/>
+                            <constraint firstItem="oxV-Qy-VdA" firstAttribute="leading" secondItem="yFH-8v-5y5" secondAttribute="trailing" constant="8" id="vW7-39-cqi"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Jd3-en-RvT" secondAttribute="trailing" constant="8" id="3rW-1U-nJy"/>
+                    <constraint firstAttribute="bottom" secondItem="Jd3-en-RvT" secondAttribute="bottom" id="FOT-Xd-5He"/>
+                    <constraint firstItem="Jd3-en-RvT" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="VlJ-IT-bhL"/>
+                    <constraint firstItem="Jd3-en-RvT" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="iGg-Jy-tVa"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="contentFd" destination="yFH-8v-5y5" id="ZIg-ct-rL2"/>
+                <outlet property="iconImageView" destination="oxV-Qy-VdA" id="z4R-CN-2rO"/>
+                <outlet property="titleLb" destination="iY8-Cg-acx" id="CK7-qa-3JX"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

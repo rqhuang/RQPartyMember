@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1912" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RQModifyPartyAddressVC">
+            <connections>
+                <outlet property="tableView" destination="dmM-h4-jF3" id="Hm5-WZ-0yT"/>
+                <outlet property="topConstraint" destination="K7w-vT-4H7" id="oNF-ZY-fWs"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="none" rowHeight="44" sectionHeaderHeight="1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="dmM-h4-jF3">
+                    <rect key="frame" x="0.0" y="59" width="320" height="509"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="Jl9-kn-NiL"/>
+                        <outlet property="delegate" destination="-1" id="tAA-jK-ff3"/>
+                    </connections>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uxf-iy-Gui" customClass="RQLineView">
+                    <rect key="frame" x="0.0" y="58" width="320" height="1"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="jGZ-m1-Myq"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ytV-Fc-DDX">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="58"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2t9-6B-rya">
+                            <rect key="frame" x="15" y="8" width="290" height="42"/>
+                            <color key="backgroundColor" red="0.95686274509803915" green="0.95686274509803915" blue="0.95686274509803915" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="42" id="eKr-f6-RPw"/>
+                            </constraints>
+                            <state key="normal" title="xx学校第二信息党支部">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="showAddress:" destination="-1" eventType="touchUpInside" id="zTr-dl-oNH"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="2t9-6B-rya" secondAttribute="bottom" constant="8" id="9T6-gp-UFs"/>
+                        <constraint firstItem="2t9-6B-rya" firstAttribute="top" secondItem="ytV-Fc-DDX" secondAttribute="top" constant="8" id="KFE-6K-MMR"/>
+                        <constraint firstAttribute="trailing" secondItem="2t9-6B-rya" secondAttribute="trailing" constant="15" id="YnC-Nf-X9h"/>
+                        <constraint firstItem="2t9-6B-rya" firstAttribute="leading" secondItem="ytV-Fc-DDX" secondAttribute="leading" constant="15" id="kVj-gw-Yek"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="uxf-iy-Gui" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="CXB-S7-yWI"/>
+                <constraint firstAttribute="trailing" secondItem="uxf-iy-Gui" secondAttribute="trailing" id="Jz0-tz-pnb"/>
+                <constraint firstItem="dmM-h4-jF3" firstAttribute="top" secondItem="uxf-iy-Gui" secondAttribute="bottom" id="K7w-vT-4H7"/>
+                <constraint firstItem="dmM-h4-jF3" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="NZy-VM-3py"/>
+                <constraint firstItem="uxf-iy-Gui" firstAttribute="top" secondItem="ytV-Fc-DDX" secondAttribute="bottom" id="bur-eN-xsQ"/>
+                <constraint firstItem="ytV-Fc-DDX" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="fPz-Vj-6GZ"/>
+                <constraint firstAttribute="trailing" secondItem="ytV-Fc-DDX" secondAttribute="trailing" id="iKY-vi-ZgQ"/>
+                <constraint firstItem="dmM-h4-jF3" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" constant="-59" id="kV3-Ig-sLV"/>
+                <constraint firstAttribute="trailing" secondItem="dmM-h4-jF3" secondAttribute="trailing" id="okI-em-3eZ"/>
+                <constraint firstItem="ytV-Fc-DDX" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="p6x-HF-hby"/>
+            </constraints>
+            <point key="canvasLocation" x="252" y="270"/>
+        </view>
+    </objects>
+</document>
