@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+typedef NS_ENUM(NSInteger,QuestionStyle) {
+    QuestionAnswer =0,
+    QuestionDetail = 1
+};
 @interface RQQuestionDetailVC : UIViewController
-
+@property(nonatomic,assign) QuestionStyle style;
 @end

@@ -42,6 +42,10 @@
                 <constraint firstItem="FCd-EY-xlY" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="30" id="kNC-kB-bVN"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="commitBt" destination="IBn-78-yrO" id="K8P-PI-EN0"/>
+                <outlet property="resultLb" destination="FCd-EY-xlY" id="q9f-fR-ch0"/>
+            </connections>
             <point key="canvasLocation" x="87.5" y="-74.5"/>
         </view>
     </objects>

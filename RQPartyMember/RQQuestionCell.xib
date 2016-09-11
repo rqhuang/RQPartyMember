@@ -8,7 +8,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="RQQuestionCell">
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="RQQuestionCell">
             <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
@@ -21,7 +21,7 @@
                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="test6" translatesAutoresizingMaskIntoConstraints="NO" id="V5A-5M-QMD">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="selecte_green" translatesAutoresizingMaskIntoConstraints="NO" id="V5A-5M-QMD">
                         <rect key="frame" x="281" y="12" width="20" height="20"/>
                         <constraints>
                             <constraint firstAttribute="width" secondItem="V5A-5M-QMD" secondAttribute="height" multiplier="1:1" id="OuI-ht-d84"/>
@@ -36,9 +36,13 @@
                     <constraint firstAttribute="trailing" secondItem="V5A-5M-QMD" secondAttribute="trailing" constant="19" id="sd9-hF-Bjj"/>
                 </constraints>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="questionLb" destination="sMc-bv-haq" id="t9L-zg-j1f"/>
+                <outlet property="selectedImageView" destination="V5A-5M-QMD" id="yq9-Uz-jhX"/>
+            </connections>
         </tableViewCell>
     </objects>
     <resources>
-        <image name="test6" width="12" height="10"/>
+        <image name="selecte_green" width="20" height="20"/>
     </resources>
 </document>

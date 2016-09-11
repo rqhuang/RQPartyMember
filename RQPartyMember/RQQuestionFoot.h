@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface RQQuestionFoot : UIView
-
+@property(nonatomic,weak) IBOutlet UILabel *resultLb;
+@property(nonatomic,weak) IBOutlet UIButton *commitBt;
 @end

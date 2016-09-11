@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface RQQuestionCell : UITableViewCell
-
+@property(nonatomic,weak) IBOutlet UILabel *questionLb;
+@property(nonatomic,weak) IBOutlet UIImageView *selectedImageView;
 @end

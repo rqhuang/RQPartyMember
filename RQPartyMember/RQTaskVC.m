@@ -50,7 +50,7 @@
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     RQTaskCell *cell = [tableView dequeueReusableCellWithIdentifier:@"task"];
-    if (self.segmented.selectedSegmentIndex == 1) {
+    if (self.segmented.selectedSegmentIndex == 0) {
         [cell.bt setTitle:@"开始答题" forState:UIControlStateNormal];
         cell.scroeLb.text = @"+4";
     }
@@ -65,9 +65,8 @@
     
 }
 - (void)buttonClick:(UIButton*) sender {
-    if (self.segmented.selectedSegmentIndex == 0) {
-        RQQuestionDetailVC *questionDetailVC = [[RQQuestionDetailVC alloc] initWithNibName:@"RQQuestionDetailVC" bundle:nil];
-        [self.navigationController pushViewController:questionDetailVC animated:YES];
-    }
+    RQQuestionDetailVC *questionDetailVC = [[RQQuestionDetailVC alloc] initWithNibName:@"RQQuestionDetailVC" bundle:nil];
+    questionDetailVC.style = self.segmented.selectedSegmentIndex;
+    [self.navigationController pushViewController:questionDetailVC animated:YES];
 }
 @end
